@@ -1,16 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <?import javafx.geometry.Insets?>
-<?import javafx.scene.control.Label?>
-<?import javafx.scene.layout.VBox?>
-
 <?import javafx.scene.control.Button?>
-<VBox alignment="CENTER" spacing="20.0" xmlns:fx="http://javafx.com/fxml"
-      fx:controller="com.example.javafx_encryptor.HelloController">
-    <padding>
-        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0"/>
-    </padding>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.TextFlow?>
 
-    <Label fx:id="welcomeText"/>
-    <Button text="Hello!" onAction="#onHelloButtonClick"/>
+<VBox alignment="CENTER" spacing="20.0" xmlns="http://javafx.com/javafx/26" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.javafx_encryptor.HelloController">
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+    </padding>
+   <GridPane maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="450.0" prefWidth="900.0">
+     <columnConstraints>
+       <ColumnConstraints hgrow="SOMETIMES" maxWidth="229.20001220703125" minWidth="10.0" prefWidth="123.39998626708984" />
+       <ColumnConstraints hgrow="SOMETIMES" maxWidth="442.4000045776367" minWidth="10.0" prefWidth="270.8" />
+         <ColumnConstraints hgrow="SOMETIMES" maxWidth="442.4000045776367" minWidth="10.0" prefWidth="278.8" />
+         <ColumnConstraints hgrow="SOMETIMES" maxWidth="191.19992675781248" minWidth="10.0" prefWidth="40.79995117187502" />
+     </columnConstraints>
+     <rowConstraints>
+         <RowConstraints minHeight="10.0" prefHeight="30.0" />
+       <RowConstraints />
+       <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+         <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+       <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+         <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+         <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+         <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+         <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+         <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+     </rowConstraints>
+      <children>
+      
+          <Label fx:id="welcomeText" prefHeight="18.0" prefWidth="106.0" text="Input your text" GridPane.columnIndex="1" />
+          <Button contentDisplay="CENTER" onAction="#onHelloButtonClick" prefHeight="32.0" prefWidth="110.0" text="Encode text" textAlignment="CENTER" GridPane.halignment="LEFT" GridPane.rowIndex="9" GridPane.valignment="CENTER" />
+         <Label fx:id="welcomeText1" prefHeight="18.0" prefWidth="106.0" text="First algorithm" GridPane.rowIndex="2" />
+         <Label fx:id="welcomeText11" prefHeight="18.0" prefWidth="106.0" text="Second algorithm" GridPane.rowIndex="3" />
+         <Label fx:id="welcomeText111" prefHeight="18.0" prefWidth="106.0" text="Third algorithm" GridPane.rowIndex="4" />
+         <Label fx:id="welcomeText1111" prefHeight="18.0" prefWidth="106.0" text="Fourth algorithm" GridPane.rowIndex="5" />
+         <Label fx:id="welcomeText1112" prefHeight="18.0" prefWidth="106.0" text="Fifth algorithm" GridPane.rowIndex="6" />
+         <Label fx:id="welcomeText1113" prefHeight="18.0" prefWidth="106.0" text="Sixth algorithm" GridPane.rowIndex="7" />
+         <Label fx:id="welcomeText2" prefHeight="18.0" prefWidth="106.0" text="Result" GridPane.columnIndex="2" />
+         <TextFlow prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="2" GridPane.rowIndex="2" />
+         <TextFlow prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="2" GridPane.rowIndex="3" />
+         <TextFlow prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="2" GridPane.rowIndex="4" />
+         <TextFlow prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="2" GridPane.rowIndex="5" />
+         <TextFlow prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="2" GridPane.rowIndex="6" />
+         <TextFlow prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="2" GridPane.rowIndex="7" />
+         <TextField promptText="Введите текст" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+         <TextField promptText="Введите текст" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+         <TextField promptText="Введите текст" GridPane.columnIndex="1" GridPane.rowIndex="4" />
+         <TextField promptText="Введите текст" GridPane.columnIndex="1" GridPane.rowIndex="5" />
+         <TextField promptText="Введите текст" GridPane.columnIndex="1" GridPane.rowIndex="6" />
+         <TextField promptText="Введите текст" GridPane.columnIndex="1" GridPane.rowIndex="7" />
+      </children>
+   </GridPane>
 </VBox>
