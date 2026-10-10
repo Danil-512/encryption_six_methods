@@ -37,25 +37,27 @@
       
           <Label fx:id="welcomeText" prefHeight="18.0" prefWidth="106.0" text="Input your text" GridPane.columnIndex="1" />
           <Button contentDisplay="CENTER" onAction="#onHelloButtonClick" prefHeight="32.0" prefWidth="110.0" text="Encode text" textAlignment="CENTER" GridPane.halignment="LEFT" GridPane.rowIndex="9" GridPane.valignment="CENTER" />
-         <Label fx:id="welcomeText1" prefHeight="18.0" prefWidth="106.0" text="First algorithm" GridPane.rowIndex="2" />
-         <Label fx:id="welcomeText11" prefHeight="18.0" prefWidth="106.0" text="Second algorithm" GridPane.rowIndex="3" />
-         <Label fx:id="welcomeText111" prefHeight="18.0" prefWidth="106.0" text="Third algorithm" GridPane.rowIndex="4" />
-         <Label fx:id="welcomeText1111" prefHeight="18.0" prefWidth="106.0" text="Fourth algorithm" GridPane.rowIndex="5" />
-         <Label fx:id="welcomeText1112" prefHeight="18.0" prefWidth="106.0" text="Fifth algorithm" GridPane.rowIndex="6" />
-         <Label fx:id="welcomeText1113" prefHeight="18.0" prefWidth="106.0" text="Sixth algorithm" GridPane.rowIndex="7" />
-         <Label fx:id="welcomeText2" prefHeight="18.0" prefWidth="106.0" text="Result" GridPane.columnIndex="2" />
-         <TextFlow prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="2" GridPane.rowIndex="2" />
-         <TextFlow prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="2" GridPane.rowIndex="3" />
-         <TextFlow prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="2" GridPane.rowIndex="4" />
-         <TextFlow prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="2" GridPane.rowIndex="5" />
-         <TextFlow prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="2" GridPane.rowIndex="6" />
-         <TextFlow prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="2" GridPane.rowIndex="7" />
-         <TextField promptText="Введите текст" GridPane.columnIndex="1" GridPane.rowIndex="2" />
-         <TextField promptText="Введите текст" GridPane.columnIndex="1" GridPane.rowIndex="3" />
-         <TextField promptText="Введите текст" GridPane.columnIndex="1" GridPane.rowIndex="4" />
-         <TextField promptText="Введите текст" GridPane.columnIndex="1" GridPane.rowIndex="5" />
-         <TextField promptText="Введите текст" GridPane.columnIndex="1" GridPane.rowIndex="6" />
-         <TextField promptText="Введите текст" GridPane.columnIndex="1" GridPane.rowIndex="7" />
+          <Label fx:id="welcomeText1" prefHeight="18.0" prefWidth="106.0" text="First algorithm" GridPane.rowIndex="2" />
+          <Label fx:id="welcomeText11" prefHeight="18.0" prefWidth="106.0" text="Second algorithm" GridPane.rowIndex="3" />
+          <Label fx:id="welcomeText111" prefHeight="18.0" prefWidth="106.0" text="Third algorithm" GridPane.rowIndex="4" />
+          <Label fx:id="welcomeText1111" prefHeight="18.0" prefWidth="106.0" text="Fourth algorithm" GridPane.rowIndex="5" />
+          <Label fx:id="welcomeText1112" prefHeight="18.0" prefWidth="106.0" text="Fifth algorithm" GridPane.rowIndex="6" />
+          <Label fx:id="welcomeText1113" prefHeight="18.0" prefWidth="106.0" text="Sixth algorithm" GridPane.rowIndex="7" />
+          <Label fx:id="welcomeText2" prefHeight="18.0" prefWidth="106.0" text="Result" GridPane.columnIndex="2" />
+
+          <TextFlow fx:id="outputFirst"  prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="2" GridPane.rowIndex="2" />
+          <TextFlow fx:id="outputSecond" prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="2" GridPane.rowIndex="3" />
+          <TextFlow fx:id="outputThird"  prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="2" GridPane.rowIndex="4" />
+          <TextFlow fx:id="outputFourth" prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="2" GridPane.rowIndex="5" />
+          <TextFlow fx:id="outputFifth"  prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="2" GridPane.rowIndex="6" />
+          <TextFlow fx:id="outputSixth"  prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="2" GridPane.rowIndex="7" />
+
+          <TextField fx:id="inputFirst"  promptText="Введите текст" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+          <TextField fx:id="inputSecond" promptText="Введите текст" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+          <TextField fx:id="inputThird"  promptText="Введите текст" GridPane.columnIndex="1" GridPane.rowIndex="4" />
+          <TextField fx:id="inputFourth" promptText="Введите текст" GridPane.columnIndex="1" GridPane.rowIndex="5" />
+          <TextField fx:id="inputFifth"  promptText="Введите текст" GridPane.columnIndex="1" GridPane.rowIndex="6" />
+          <TextField fx:id="inputSixth"  promptText="Введите текст" GridPane.columnIndex="1" GridPane.rowIndex="7" />
       </children>
    </GridPane>
 </VBox>
